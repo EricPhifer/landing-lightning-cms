@@ -11,6 +11,11 @@ export default {
           title: 'Title',
           type: 'string',
         },
+        {
+          name: 'priority',
+          title: 'Priority to be Shown In',
+          type: 'number',
+        },
         { 
             name: 'content', 
             title: 'Content', 
@@ -36,8 +41,13 @@ export default {
           type: 'string',
         },
         {
+          name: 'cta',
+          title: 'Words for Call to Action',
+          type: 'string',
+        },
+        {
           name: 'link',
-          title: 'Section Link',
+          title: 'CTA Link',
           description: 'This is for any external link.',
           type: 'string',
         },

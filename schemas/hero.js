@@ -36,6 +36,16 @@ export default {
           type: 'string',
         },
         {
+          name: 'herocall',
+          title: 'Call to Action Text',
+          type: 'string',
+        },
+        {
+          name: 'video',
+          title: 'Video to Explain the Lightning Bundle',
+          type: 'mux.video',
+        },
+        {
             name: 'footerone',
             title: 'First Hero Footer',
             type: 'string',
