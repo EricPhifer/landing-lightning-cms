@@ -21,13 +21,6 @@ export default {
           title: 'URL for Developer', 
           type: 'url' 
         },
-        {
-          name: 'links',
-          title: 'Links to Pages',
-          type: 'array',
-          of: [
-            {type: 'PageLinks'}
-          ],
-        }
+
     ],
   }
