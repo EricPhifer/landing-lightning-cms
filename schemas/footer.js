@@ -21,6 +21,5 @@ export default {
           title: 'URL for Developer', 
           type: 'url' 
         },
-
     ],
   }
