@@ -1,16 +1,16 @@
 // Nav & Footer
 import footer from './footer'
 // Body
+import cost from './cost'
 import hero from './hero'
 import plan from './plan'
-import problem from './problem'
-import clarity from './clarity'
-import contentmanage from './contentmanage'
-import cost from './cost'
-import maintenance from './maintenance'
 import should from './should'
+import clarity from './clarity'
+import problem from './problem'
 import shouldnot from './shouldnot'
+import maintenance from './maintenance'
 import testimonials from './testimonials'
+import contentmanage from './contentmanage'
 // Components
 import PlanSteps from '../components/PlanSteps'
 
@@ -20,14 +20,14 @@ export const schemaTypes = [
     // Body
     hero,
     plan,
-    problem,
-    clarity,
-    contentmanage,
     cost,
-    maintenance,
     should,
+    clarity,
+    problem,
     shouldnot,
+    maintenance,
     testimonials,
+    contentmanage,
     // Components
     PlanSteps,
 ]

@@ -2,7 +2,7 @@ import { TbSection as icon } from 'react-icons/tb';
 
 export default {
     name: 'plan',
-    title: 'Section with a stepped plan',
+    title: 'Plan',
     type: 'document',
     icon,
     fields: [
